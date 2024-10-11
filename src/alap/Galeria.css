@@ -1,0 +1,6 @@
+.galeria {
+    display: grid;                       /* Grid elrendezés */
+    grid-template-columns: repeat(3, 1fr); /* Három oszlop */
+    gap: 20px;                           /* Hézag a kártyák között */
+    padding: 10px;                      /* Belső padding */
+}
